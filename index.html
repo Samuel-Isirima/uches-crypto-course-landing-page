@@ -314,21 +314,37 @@
             <p>Click <a href="https://selar.co/s0p966">here to pay on Selar</a></p>
           </div>
           <div class="col-lg-4 text-center">
-            <h4> Enroll Now</h4>
-            <p>Enroll Now and Secure Your Financial Future. Spaces are limited, and this workshop is in high demand. 
-              Don't miss this opportunity to transform your financial future with cryptocurrency.</p>
+            <h4> Pay with Crypto</h4>
+            <p>Wallet Address: <b>0x135b55Ef81A6A610a99f06A7966ed0ADFF8ba97A</b></p>
+            <div>
+
+              <p>Scan the code below for the wallet address</p>
+              <img height="150" width="150" src="./assets/img/wallet-barcode.jpg"/>
+            </div>
+            <b>COIN: USDT or USDC</b>
+
+            <p>Network: BNB SMART CHAIN, ARBITRUM, OPTIMISM, ETHEREUM, POLYGON, AVALANCHE.</p>
+            <a type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#proof-of-payment-crypto">
+              Upload proof of payment
+            </a>
           </div>
           <div class="col-lg-4 text-center">
-            <h3> 🎓 Enroll Now</h3>
-            <p>Enroll Now and Secure Your Financial Future. Spaces are limited, and this workshop is in high demand. 
-              Don't miss this opportunity to transform your financial future with cryptocurrency.</p>
+            <h3> Pay with Bank Transfer</h3>
+            <p>Send N50,000 to the details below</p>
+            <p>
+              Account number: <b>2117264728</b>
+              <br>
+              Account Name: <b>Rejoice Uche Ikechukwu</b>
+              <br>
+              Bank: <b>Zenith Bank </b>
+            </p>
+            <a type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#proof-of-payment-bank">
+              Upload proof of payment
+            </a>
           </div>
         </div>
         <div>
-          <!-- Button trigger modal -->
-          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRegisterForm">
-            Register
-            </a>
+
         </div>
 
         <div class="row">
@@ -342,53 +358,91 @@
     </section><!-- End Contact Section -->
 
     <!-- ======= Bootstrap modal ======= -->
-    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    <div class="modal fade" id="proof-of-payment-crypto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
       aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <form action="https://formspree.io/f/xaylqzqk" method="POST">
             <div class="modal-header text-center">
-              <h4 class="modal-title w-100 font-weight-bold">Register for the Workshop</h4>
-              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+              <h4 class="modal-title w-100 font-weight-bold">Proof of payment for crypto payment</h4>
+              <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body mx-3">
               <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your Name</label>
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Name</label>
                 <input type="text" id="defaultForm-email" class="form-control validate" name="name" required>
               </div>
 
               <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your Email</label>
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Email</label>
                 <input type="email" id="defaultForm-email" class="form-control validate" name="email" required>
               </div>
 
               <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your Phone Number</label>
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Telegram username</label>
                 <input type="text" id="defaultForm-email" class="form-control validate" name="phone" required>
               </div>
 
               <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your Country</label>
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Transaction Hash or Wallet address</label>
                 <input type="text" id="defaultForm-email" class="form-control validate" name="country" required>
               </div>
-
-              <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your City</label>
-                <input type="text" id="defaultForm-email" class="form-control validate" name="city" required>
+              <div class="text-center">
+                <a type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#modalRegisterForm">
+                  Upload proof of payment
+                </a>
               </div>
-
-              <div class="md-form mb-5">
-                <label data-error="wrong" data-success="right" for="defaultForm-email">Your State</label>
-                <input type="text" id="defaultForm-email" class="form-control validate" name="state" required>
-              </div>
-
               </div>
               </form>
         </div>
       </div>
   </div>
+
+
+   <!-- ======= Bootstrap modal ======= -->
+   <div class="modal fade" id="proof-of-payment-bank" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+     <div class="modal-content">
+       <form action="https://formspree.io/f/xaylqzqk" method="POST">
+         <div class="modal-header text-center">
+           <h4 class="modal-title w-100 font-weight-bold">Proof of payment for bank payment</h4>
+           <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body mx-3">
+           <div class="md-form mb-5">
+             <label data-error="wrong" data-success="right" for="defaultForm-email">Name</label>
+             <input type="text" id="defaultForm-email" class="form-control validate" name="name" required>
+           </div>
+
+           <div class="md-form mb-5">
+             <label data-error="wrong" data-success="right" for="defaultForm-email">Email</label>
+             <input type="email" id="defaultForm-email" class="form-control validate" name="email" required>
+           </div>
+
+           <div class="md-form mb-5">
+             <label data-error="wrong" data-success="right" for="defaultForm-email">Telegram username</label>
+             <input type="text" id="defaultForm-email" class="form-control validate" name="phone" required>
+           </div>
+
+           <div class="md-form mb-5">
+             <label data-error="wrong" data-success="right" for="defaultForm-email">Screenshot</label>
+             <input type="file" id="defaultForm-email" class="form-control validate" name="country" required>
+           </div>
+           <div class="text-center">
+             <a type="button" class="btn btn-primary text-center">
+               Upload proof of payment
+             </a>
+           </div>
+           </div>
+           </form>
+     </div>
+   </div>
+</div>
 
 
   </main><!-- End #main -->
